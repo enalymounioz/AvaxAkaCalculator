@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/drawable-mdpi_ic_stat_name.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/drawable-mdpi/ic_stat_name.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-anydpi-v26_ic_channel.xml.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/mipmap-anydpi-v26/ic_channel.xml"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/drawable-xhdpi_ic_stat_name.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/drawable-xhdpi/ic_stat_name.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-main-36:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/drawable-hdpi_ic_stat_name.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/drawable-hdpi/ic_stat_name.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-pngs-29:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-xhdpi_ic_channel_foreground.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/mipmap-xhdpi/ic_channel_foreground.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/drawable-xxhdpi_ic_stat_name.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/drawable-xxhdpi/ic_stat_name.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/drawable-xxxhdpi_ic_stat_name.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/drawable-xxxhdpi/ic_stat_name.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/drawable_calculator_logo.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-main-36:/drawable/calculator_logo.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/xml_backup_rules.xml.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-main-36:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-xhdpi_ic_channel.png.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/mipmap-xhdpi/ic_channel.png"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/drawable_ic_channel_background.xml.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/drawable/ic_channel_background.xml"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-debug-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.elenivoreos.avaxakacalculator.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.elenivoreos.avaxakacalculator.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

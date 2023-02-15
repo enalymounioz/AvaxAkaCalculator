@@ -5,22 +5,23 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import androidx.databinding.DataBindingUtil
+import com.elenivoreos.avaxakacalculator.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding : ActivityMainBinding
 
-    var tvInput: TextView? = null
     var lastNumeric: Boolean = false
     var lastDot: Boolean = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        tvInput = findViewById(R.id.tvInput)
     }
 
     fun onDigit(view: View) {
-        tvInput?.append((view as Button).text)
+        binding.tvInput.append((view as Button).text)
         lastNumeric = true
         lastDot = false
 
@@ -28,12 +29,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClear(view: View) {
-        tvInput?.text = ""
+        binding.tvInput.text = ""
     }
 
     fun onDecimalPoint(view: View) {
         if (lastNumeric && !lastDot) {
-            tvInput?.append(".")
+            binding.tvInput.append(".")
             lastNumeric = false
             lastDot = true
 
@@ -43,10 +44,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onOperator(view: View) {
-        tvInput?.text?.let {
+        binding.tvInput.text?.let {
 
             if (lastNumeric && !isOperatorAdded(it.toString())) {
-                tvInput?.append((view as Button).text)
+                binding.tvInput.append((view as Button).text)
                 lastNumeric = false
                 lastDot = false
             }
@@ -55,7 +56,7 @@ class MainActivity : AppCompatActivity() {
 
     fun onEqual(view: View) {
         if (lastNumeric) {
-            var tvValue = tvInput?.text.toString()
+            var tvValue = binding.tvInput.text.toString()
             var prefix = ""
 
             try {
@@ -75,7 +76,7 @@ class MainActivity : AppCompatActivity() {
 
                     }
 
-                    tvInput?.text = removeZeroAfterDot((one.toDouble() - two.toDouble()).toString())
+                    binding.tvInput.text = removeZeroAfterDot((one.toDouble() - two.toDouble()).toString())
 
                 }else if (tvValue.contains("+")) {
                     val splitValue = tvValue.split("+")
@@ -87,7 +88,7 @@ class MainActivity : AppCompatActivity() {
 
                     }
 
-                    tvInput?.text = removeZeroAfterDot((one.toDouble() + two.toDouble()).toString())
+                    binding.tvInput?.text = removeZeroAfterDot((one.toDouble() + two.toDouble()).toString())
 
                 } else if (tvValue.contains("/")) {
                     val splitValue = tvValue.split("/")
@@ -99,7 +100,7 @@ class MainActivity : AppCompatActivity() {
 
                     }
 
-                    tvInput?.text = removeZeroAfterDot((one.toDouble() / two.toDouble()).toString())
+                    binding.tvInput.text = removeZeroAfterDot((one.toDouble() / two.toDouble()).toString())
 
                 }else if (tvValue.contains("*")) {
                     val splitValue = tvValue.split("*")
@@ -111,7 +112,7 @@ class MainActivity : AppCompatActivity() {
 
                     }
 
-                    tvInput?.text = removeZeroAfterDot((one.toDouble() * two.toDouble()).toString())
+                    binding.tvInput.text = removeZeroAfterDot((one.toDouble() * two.toDouble()).toString())
                 }
 
 
